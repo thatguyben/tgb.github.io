@@ -1,4 +1,6 @@
+@import url("https://use.typekit.net/dev8qvd.css");
 @charset "utf-8";
+
 
 *{
     box-sizing: border-box;
@@ -7,39 +9,39 @@
 }
 
 body {
-    font-family: 'Helvetica', Helvetica, Aial, sans-serif;
+    font-family: Acumin Pro, sans-serif;
     height: 100%;
     width: 95%;
-    font-size: 1.5rem;
     letter-spacing: 0.02em;
     overflow: auto;
+    overflow-x: hidden;
     
-    /*background-color: yellow;*/
+    background-color: black;
 }
 
 h1 {
-    font-size: 1.5rem;
-    color: #000;
-    font-weight: normal;
+    font-size: 5.2vmin;
+    color: #fff;
     letter-spacing: -0.05em;
+    font-weight: 300;
 }
 
 h2 {
-    font-size: 1.5rem;
-    color: #000;
-    font-weight: normal;
+    font-size: 5.2vmin;
+    color: #fff;
     letter-spacing: -0.05em;
+    font-weight: 300;
 }
 
 
 main{
-    width: 80%;
-    margin-top: 25px;
-    margin-left: 15px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 .imagesh {
-    width: 100%;
+    width: 98%;
     height: auto;
 }
 
@@ -50,12 +52,13 @@ main{
 
 .imagesv {
     width: auto;
-    height: 75%;
+    height: 99vmin;
 }
 
 .imagesv img {
     width: inherit;
     height: inherit;
+    margin-left: 10%;
 }
 
 a:link {
@@ -84,11 +87,11 @@ h2:hover {
 }
 
 .site-nav {
-    margin-top: 25px;
-    margin-left: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
     column-count: 1;
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .site-nav ul {
@@ -107,7 +110,7 @@ h2:hover {
         flex-direction: row;
     }
     main {
-        flex-basis: 60%;
+        flex-basis: 70%;
         
     }
 
