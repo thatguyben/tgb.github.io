@@ -8,7 +8,7 @@
 <meta name='description' content=''>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://unpkg.com/draggabilly@2.2.0/dist/draggabilly.pkgd.min.js"></script>
-<title>UFO Sightings</title>
+<title>brwnng.com</title>
 <link href="ufocss.css" rel="stylesheet" type="text/css">
 <link rel="icon" 
 href="img/favicon.png" 
@@ -348,6 +348,12 @@ sizes="24x24">
 <div class="imgfloat7">
 <img src="img/comint_part_a%7B1-25%7D-pdf%20Comp%201.gif">
 </div>
+<div class="imgfloat9">
+<img src="img/comint_part_a%7B1-25%7D-pdf%20Comp%201.gif">
+</div>
+<div class="imgfloat10">
+<img src="img/comint_part_a%7B1-25%7D-pdf%20Comp%201.gif">
+</div>
 <div class="imgfloat6">
 <img src="img/029.gif">
 </div>
@@ -355,7 +361,7 @@ sizes="24x24">
 </body>
     
 <script>
-    var $draggable = $('.h1,.h2,.h3,.h4,.h5,.imgfloat2,.imgfloat7,.imgfloat6').draggabilly({
+    var $draggable = $('.h1,.h2,.h3,.h4,.h5,.imgfloat2,.imgfloat7,.imgfloat6, .imgfloat9').draggabilly({
 })
 </script>
     
@@ -364,15 +370,7 @@ sizes="24x24">
     var random = Math.floor(Math.random() * $('.h1,.h2').length);
     $('.h1,.h2').eq(random).show();
 });
-</script>
-    
-<script>
-    $(function(){
-    var random = Math.floor(Math.random() * $('.h3,.h4').length);
-    $('.h2,.h3').eq(random).show();
-});
-</script>
-    
+    </script>
 <script>
     $(function(){
     var random = Math.floor(Math.random() * $('.h5').length);
@@ -398,6 +396,12 @@ sizes="24x24">
     $(function(){
     var random = Math.floor(Math.random() * $('.imgfloat2').length);
     $('.imgfloat2').eq(random).show();
+});
+</script>
+<script>
+    $(function(){
+    var random = Math.floor(Math.random() * $('.imgfloat7, .imgfloat9, .imgfloat10').length);
+    $('.imgfloat7, .imgfloat9, .imgfloat10').eq(random).show();
 });
 </script>
 

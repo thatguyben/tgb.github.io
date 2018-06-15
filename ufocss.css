@@ -90,6 +90,19 @@ main{
     display:none;
 }
 
+.imgfloat7 {
+    display:none;
+}
+
+.imgfloat9 {
+    display:none;
+}
+
+.imgfloat10 {
+    display:none;
+}
+
+
 .imgfloat2 img {
     
     position: absolute;
@@ -138,6 +151,24 @@ main{
     height: auto;
     left: 350px;
     top: 200px;
+}
+
+.imgfloat9 img {
+    z-index: -10;
+    position: absolute;
+    width: 45vmin;
+    height: auto;
+    left: 50px;
+    top: 100px;
+}
+
+.imgfloat10 img {
+    z-index: 10;
+    position: absolute;
+    width: 45vmin;
+    height: auto;
+    left: 500px;
+    top: 100px;
 }
 
 
