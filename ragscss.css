@@ -1,4 +1,4 @@
-@import url("https://use.typekit.net/dev8qvd.css");
+@import url("https://use.typekit.net/vkj4ppp.css");
 @charset "utf-8";
 
 
@@ -9,17 +9,17 @@
 }
 
 body {
-    font-family: Acumin Pro, sans-serif;
+    font-family: Paralucent, sans-serif;
     height: 100%;
     width: 95%;
     letter-spacing: -0.1em;
     overflow: hidden;
-    color: blue;
-    background-color: beige;
+    color: #151515;
+    background-color: #f8f8f8;
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 300;
     font-size: 2vw;
     margin-top: 1.2vh;
 }
@@ -30,8 +30,16 @@ h1 {
     height: 7vh;
     width: 100%;
     text-align: center;
-    background-color: white;
-    border-bottom: 3px solid blue;
+    /*background-color: white;
+    border-bottom: 3px solid blue; */
+}
+
+.title img {
+    position: fixed;
+    width: 100%;
+    z-index: -10;
+    left: 0;
+    top: -60;
 }
 
 h2 {
@@ -107,6 +115,10 @@ h3 {
     position: absolute;
     width: 20vw;
     height: auto;
+}
+
+.canvas {
+    z-index: -1000;
 }
 
 a:hover {
