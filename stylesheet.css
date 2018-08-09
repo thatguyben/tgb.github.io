@@ -9,28 +9,48 @@
 }
 
 body {
-    font-family: Acumin Pro, sans-serif;
     height: 100%;
     width: 95%;
     letter-spacing: 0.02em;
     overflow: auto;
-    overflow-x: hidden;
+    hyphens: none;
     
     background-color: black;
 }
 
 h1 {
-    font-size: 4.7vmin;
+    font-family: Acumin Pro, sans-serif;
+    font-size: 5.3vmin;
+    line-height: 5.4vmin;
     color: #fff;
-    letter-spacing: -0.05em;
+    letter-spacing: 0em;
     font-weight: 300;
 }
 
 h2 {
-    font-size: 4.7vmin;
+    font-family: Acumin Pro, sans-serif;
+    font-size: 4vmin;
     color: #fff;
-    letter-spacing: -0.05em;
+    letter-spacing: 0em;
     font-weight: 300;
+}
+
+h3 {
+    font-family: Acumin Pro, sans-serif;
+    font-size: 6.7vmin;
+    color: #fff;
+    letter-spacing: 0em;
+    font-weight: 300;
+    margin-bottom: 5vh;
+}
+
+ul {
+    margin-top: 6vh;
+}
+
+ul > li {
+    display: inline-block;
+    *display:inline;
 }
 
 
@@ -40,69 +60,231 @@ main{
     margin-left: 5px;
 }
 
-.imagesh {
-    width: 98%;
+.arrow {
+    position: fixed;
+}
+
+.intro {
+    margin-bottom: 10vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 10% 66% 24%;
+}
+
+.grid-item {
+  /* border: 1px solid white; */
+}
+
+.imgbody {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imgbody img {
+    position: relative;
+    width: 100%;
     height: auto;
 }
 
-.imagesh img {
-    width: inherit;
-    height: inherit;
+.imgbody video {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+    width: 100%;
+    height: auto;
 }
 
-.imagesv {
-    width: auto;
-    height: 99vmin;
+.img1 {
+    display: none;
+    z-index: -100;
+    position: fixed;
 }
 
-.imagesv img {
-    width: inherit;
-    height: inherit;
-    margin-left: 10%;
+.img1 img {
+    position: fixed;
+    width: 100vmin;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+.img2 {
+    display: none;
+    z-index: -100;
+    position: fixed;
+}
+
+.img2 img {
+    position: fixed;
+    width: 100vmin;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+.img3 {
+    display: none;
+    z-index: -100;
+    position: fixed;
+}
+
+.img3 img {
+    position: fixed;
+    width: 100vmin;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+.img4 {
+    display: none;
+    z-index: -100;
+    position: fixed;
+}
+
+.img4 img {
+    position: fixed;
+    width: 100vmin;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+.img5 {
+    display: none;
+    z-index: -100;
+    position: fixed;
+}
+
+.img5 video {
+    position: fixed;
+    width: 100vmin;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+.img6 {
+    display: none;
+    z-index: -100;
+    position: fixed;
+}
+
+.img6 img {
+    position: fixed;
+    width: 100vmin;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+.img7 {
+    display: none;
+    z-index: -100;
+    position: fixed;
+}
+
+.img7 video {
+    position: fixed;
+    width: 100vmin;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+.img8 {
+    display: none;
+    z-index: -100;
+    position: fixed;
+}
+
+.img8 img {
+    position: fixed;
+    width: 100vmin;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+.img9 {
+    display: none;
+    z-index: -100;
+    position: fixed;
+}
+
+.img9 img {
+    position: fixed;
+    width: 100vmin;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+h2:hover span {
+    text-decoration: underline;
 }
 
 a:link {
+    color: white;
     text-decoration: none;
-    color: inherit;
 }
 
 a:hover {
-    text-decoration: none;
-    font-weight: 400;
-}
-
-a:hover span {
-    text-decoration: none;
-    font-weight: 400;
+    color: white;
+    text-decoration: underline;
 }
 
 a:visited {
+    color: white;
     text-decoration: none;
-    color: inherit;
 }
-
-h2:hover {
-    text-decoration: none;
-    font-weight: 400;
-}
-
-.site-nav {
-    margin-top: 5px;
-    margin-left: 5px;
-    column-count: 1;
-    width: 100%;
-    margin-bottom: 40px;
-}
-
-.site-nav ul {
-    display: inline-block;
-    width: 100%;
-}
-
-.site-nav li{
-    list-style: none;
-}
-
 
 @media (min-width: 1000px){
     .site-content {
@@ -110,24 +292,10 @@ h2:hover {
         flex-direction: row;
     }
     main {
-        flex-basis: 70%;
+        flex-basis: 85%;
         
     }
-
-    
-    .site-nav {
-        column-count: 1;
-        flex-basis: 30%;
-    }
-        .images {
-        column-count: 1;
-    }
 }
-
-hr {
-    height: 1px;
-}
-
 
 ::selection {
   color: blue;
